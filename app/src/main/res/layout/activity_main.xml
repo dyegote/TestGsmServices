@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="50dp">
+
+
+        <Button
+            android:id="@+id/buttonAnalytics"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Load Analytics" />
+
+        <Button
+            android:id="@+id/buttonMeasureModule"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Load Measure Module" />
+
+        <Button
+            android:id="@+id/buttonSms"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Load SMS Retrived" />
+
+        <Button
+            android:id="@+id/buttonExControlada"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Exception Controlada" />
+        <Button
+            android:id="@+id/buttonExNoControlada"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Exception NO Controlada" />
+
+    </LinearLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

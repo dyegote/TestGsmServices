@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<dasho mode="android"  version="11.3.0">
+    <propertylist>
+        <property name="PROVISIONAL_MODULE_SUPPORT" value="true"/>
+    </propertylist>
+    <globalProcessingExclude>
+        <classes name="com.google.android.gms.vision.barcodereader"/>
+        <classes regex="true" name="com\.google\.android\.gms\.vision\.barcodereader\..*"/>
+        <classes name="com.google.android.gms.vision.barcodereader.**"/>
+        <classes name="com.android.inputmethod.**"/>
+        <classes name="org.paykey.**"/>
+        <classes name="com.medallia.**"/>
+        <classes name="org.mozilla.javascript.**"/>
+        <classes name="com.microblink.**"/>
+        <classes name="com.datami.**"/>
+        <classes name="com.d.c.**"/>
+        <classes name="com.jayway.**"/>
+        <classes name="com.giphy.**"/>
+        <classes name="androidx.**"/>
+        <classes name="com.huawei.android.**"/>
+	    <classes name="com.huawei.hms.**"/>
+        <classes name="com.hianalytics.android.**"/>
+        <classes name="com.huawei.updatesdk.**"/>
+        <classes name="com.facebook.**"/>
+    </globalProcessingExclude>
+    <controlflow option="on" tryCatch="on" catchHandlers="10" blockSplitting="off" jumbling="off">
+		<excludelist>
+            <classes name="net.veritran.vtuserapplication.configuration.elements.**"/>
+        </excludelist>
+    </controlflow>
+    <stringencrypt option="on" level="10" implementations="10">
+        <excludelist>
+            <classes name="net.veritran.vtuserapplication.configuration.elements.**"/>
+            <classes name="com.android.**"/>
+        </excludelist>
+    </stringencrypt>
+    <injection>
+        <instrumentation option="off">
+            <runtime target="android4"/>
+        </instrumentation>
+    </injection>
+</dasho>

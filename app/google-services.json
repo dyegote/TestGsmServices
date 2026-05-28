@@ -1,0 +1,76 @@
+{
+  "project_info": {
+    "project_number": "406026221870",
+    "project_id": "test-dyegote",
+    "storage_bucket": "test-dyegote.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:406026221870:android:6f06669fe3ec2b808922bf",
+        "android_client_info": {
+          "package_name": "com.dyegote.firebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "406026221870-n0apfba6msmq3rt173einlk3umvq14vf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.dyegote.firebase",
+            "certificate_hash": "f6da502596ba36130fd9defe01d6db888214e8fe"
+          }
+        },
+        {
+          "client_id": "406026221870-3iv4qv6l86sfars1kau4tv0hhs3kbt9e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC3J4m8ErC6HbPcS3alUJkqWBhQPJpbmgI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "406026221870-3iv4qv6l86sfars1kau4tv0hhs3kbt9e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:406026221870:android:2743bb7f4c1b144d8922bf",
+        "android_client_info": {
+          "package_name": "com.example.testgsmservices"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "406026221870-3iv4qv6l86sfars1kau4tv0hhs3kbt9e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC3J4m8ErC6HbPcS3alUJkqWBhQPJpbmgI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "406026221870-3iv4qv6l86sfars1kau4tv0hhs3kbt9e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
